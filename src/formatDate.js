@@ -35,8 +35,6 @@ function formatDate(date, fromFormat, toFormat) {
 
           strVet.push(dateVet[i]);
         } else {
-          let i;
-
           for (i = 0; i < fromFormat.length; i++) {
             if (fromFormat[i] === 'YY') {
               break;
